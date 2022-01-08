@@ -1,0 +1,76 @@
+.content {
+    list-style-type: none;
+    overflow-y: auto;
+    height: 83vh;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.message {
+    font-family: 'Petrona';
+    padding: 10px;
+    border-radius: 100000px;
+    margin-bottom: 5px;
+}
+
+.friends {
+    background-color: #a9ffb2;
+    background-image: linear-gradient(90deg, #46ffd4, #d3fff7);
+}
+
+
+.my {
+    background-color: #46c4ff;
+    background-image: linear-gradient(90deg, #46c4ff, #9edff8);
+}
+
+.html-content {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    max-width: 100vh;
+    height: 90vh;
+}
+
+.web-title {
+    font-family: 'Courgette';
+}
+
+.message-zone {
+    width: 100%;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10000px;
+    padding: 10px;
+
+}
+
+#message {
+    outline: none;
+    width: 100%;
+    border: none;
+    margin-left: 5px;
+    font-family: 'Mulish';
+}
+
+.submit-btn {
+    padding: 10px;
+    border-radius: 10000px;
+    background-color: rgb(23, 172, 23);
+    outline: none;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Petrona';
+    /* font-weight: bold; */
+    font-size: 13pt;
+}
+
+
+::-webkit-scrollbar {
+    width: 1px;
+}

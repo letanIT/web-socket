@@ -1,0 +1,17 @@
+{
+  "name": "chatrealtime",
+  "version": "1.0.0",
+  "description": "Real time chating simple demo Run by node js and web socket ### Cài đặt ``` npm install ``` ### Chạy ``` npm start ``` hoặc ``` node app.js ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "ws": "^7.4.5"
+  },
+  "keywords": []
+}
